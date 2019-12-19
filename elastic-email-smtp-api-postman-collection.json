@@ -1,0 +1,1121 @@
+{
+    "id": "1f613cf88936474f3d35fb279adcf990",
+    "name": "Elastic Email SMTP API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "dbf99a35dc9e0ae1eca1353072df071f",
+            "name": "Upload Attachment",
+            "url": "httpapi.elasticemail.com\/attachments\/upload\/",
+            "description": "The upload attachment command is used to upload an attachment for sending.  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "file",
+                    "description": "The file name being uploaded",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "35340b74fd9bd7e8447b2b4289f34aef",
+            "name": "Add Existing Subscriber To List",
+            "url": "httpapi.elasticemail.com\/lists\/add-contact",
+            "description": "Add Existing Subscriber To List",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "e67f3d07fc9761bc201742f44884cb14",
+            "name": "Create New Subscriber",
+            "url": "httpapi.elasticemail.com\/lists\/create-contact",
+            "description": "Create New Subscriber",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "birthdate",
+                    "description": "date of birth of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "city of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "country of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "email",
+                    "description": "email address of subscriber\/recipient",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "firstname",
+                    "description": "first name of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "gender",
+                    "description": "male or female",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "lastname",
+                    "description": " last name of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "organizationname",
+                    "description": "organization name the subscriber works for",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "phone",
+                    "description": "phone number for the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "postalcode",
+                    "description": "the zip or postal code of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "the state or province for the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "the zip or postal code of the subscriber",
+                    "description": "Your user name.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "the title for the subscriber (Mr., Mrs, Miss, etc)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "6d52b28b0d08ff70ce496270f682c0a5",
+            "name": "Create New List",
+            "url": "httpapi.elasticemail.com\/lists\/create-lists",
+            "description": "Create New List",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "4f5d87b92bd0e323412ec3dfc26743ea",
+            "name": "Delete Existing List",
+            "url": "httpapi.elasticemail.com\/lists\/delete",
+            "description": "Delete Existing List",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "f79a14fd9e8f0785b51f9d332b92b1da",
+            "name": "Delete Existing Subscriber",
+            "url": "httpapi.elasticemail.com\/lists\/delete-contact",
+            "description": "Delete Existing Subscriber",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "email",
+                    "description": "email address of subscriber\/recipient",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "b395aa2ec2301f572e9820bc4533ec1f",
+            "name": "Remove Existing Subscriber From List",
+            "url": "httpapi.elasticemail.com\/lists\/remove-contact",
+            "description": "Remove Existing Subscriber From List",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "d220f21185f7412b9cd2b1f7ccb91e7f",
+            "name": "Create Multiple Subscriber From CSV File",
+            "url": "httpapi.elasticemail.com\/lists\/upload-contacts",
+            "description": "Create Multiple Subscriber From CSV File",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "birthdate",
+                    "description": "date of birth of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "city of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "country of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "email",
+                    "description": "email address of subscriber\/recipient",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "firstname",
+                    "description": "first name of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "gender",
+                    "description": "male or female",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "lastname",
+                    "description": " last name of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "listname",
+                    "description": "name of list you wish to add subscriber to (separate by semi-colon to add to multiple lists)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "organizationname",
+                    "description": "organization name the subscriber works for",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "phone",
+                    "description": "phone number for the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "postalcode",
+                    "description": "the zip or postal code of the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "the state or province for the subscriber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "the title for the subscriber (Mr., Mrs, Miss, etc)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "cd16f74222d0ed9a8fddf122fee7639a",
+            "name": "Account Details",
+            "url": "httpapi.elasticemail.com\/mailer\/account-details",
+            "description": "The Account Details command is used to determine how much credit you have left.  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea3763bc620ab60bcec040084f69c045",
+            "name": "Deleting Channel",
+            "url": "httpapi.elasticemail.com\/mailer\/channel\/delete",
+            "description": "Deleting Channel",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "csv or xml",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "channel name to delete",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "b74aedd378b63c72819ac2ce072cf5b7",
+            "name": "Listing of Active Channels",
+            "url": "httpapi.elasticemail.com\/mailer\/channel\/list",
+            "description": "Listing of Active Channels",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "csv or xml",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "712d5b69f15254b820b9eb5d2227d4cd",
+            "name": "Bounced",
+            "url": "httpapi.elasticemail.com\/mailer\/list\/bounced",
+            "description": "This api will return you the list of email addresses which are currently in your block list. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f69189488175206944996eb0958d1a3",
+            "name": "Complaint",
+            "url": "httpapi.elasticemail.com\/mailer\/list\/complaint",
+            "description": "This api will return you the list of email addresses which are currently in your block list. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "81b35adc0624ebfb286cf173175596d2",
+            "name": "Unsubscribed",
+            "url": "httpapi.elasticemail.com\/mailer\/lists\/unsubscribed",
+            "description": "This api will return you the list of email addresses which are currently in your block list. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "0fd768cb8197db3e4706e0182575a793",
+            "name": "Send Email",
+            "url": "httpapi.elasticemail.com\/mailer\/send\/",
+            "description": "api.elasticemail.com",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body_html",
+                    "description": "html email body",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "body_text",
+                    "description": "text email body",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "channel",
+                    "description": "an id field (max 60 chars) that can be used for reporting",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "charset",
+                    "description": "text value of encoding for example: iso-8859-1, windows-1251, utf-8, us-ascii, windows-1250",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "encodingtype",
+                    "description": "0 for None, 1 for Raw7Bit, 2 for Raw8Bit, 3 for QuotedPrintable, 4 for Base64 (Default), 5 for Uue  note that you can also provide the text version such as Raw7Bit for value 1. ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "from email address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_name",
+                    "description": "display name for from email address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "lists",
+                    "description": "the name of a contact list you would like to send to. Separate multiple contact lists by commas",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "merge_firstname",
+                    "description": "if sending to a template you can send merge_ fields to merge data with the template. Template fields are entered with {firstname}, {lastname} etc.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "merge_lastname",
+                    "description": "if sending to a template you can send merge_ fields to merge data with the template. Template fields are entered with {firstname}, {lastname} etc.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "reply_to",
+                    "description": "email address to reply to",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "reply_to_name",
+                    "description": "display name of the reply to address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sender",
+                    "description": "email address of the sender",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sender_name",
+                    "description": "display name sender ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subject",
+                    "description": "email subject ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "template",
+                    "description": "the name of an email template you have created in your account. If you send a template",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "time_offset_minutes",
+                    "description": "number of minutes in the future this email should be sent ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "total",
+                    "description": "semi colon separated list of email recipients (each email is treated separately, like a BCC)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "3cde2824f77e646303954ef4bc87a449",
+            "name": "Log Activity",
+            "url": "httpapi.elasticemail.com\/mailer\/status\/log",
+            "description": "The detailed activity log api allows you to get detailed information from your activity log on the emails that you have sent. Information can be narrowed by email status, channel and datetime.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "channel",
+                    "description": "an id field (max 60 chars) that can be used for reporting",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "compress",
+                    "description": "True if you want the results returned as a compressed zip file",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "csv or xml",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "from email address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "One of the following status values: 0 or all, 1 for ReadyToSend, 2 for InProgress, 4 for Bounced, 5 for Sent, 6 for Opened, 7 for Clicked, 8 for Unsubscribed, 9 for Abuse Report",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "Server time in the format: 5\/19\/2011 10:54:20 PM",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcef5a6a3ae8687f5a0deb9d517e1ffe",
+            "name": "Get Status",
+            "url": "httpapi.elasticemail.com\/mailer\/status\/{message_id}",
+            "description": "Get the status of an email message",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "api_key",
+                    "description": "your api key",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "message_id",
+                    "description": "The ID of the email message.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showdelivered",
+                    "description": "true - This will return all the recipients who succeeded. ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showdetails",
+                    "description": "true  - This will return all recipients for each status.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showerrors",
+                    "description": "true - This will return all the recipients who bounced with details on why",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showfailed",
+                    "description": "true - This will return all the recipients who bounced. ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showpending",
+                    "description": "true - This will return all the recipients still in progress. ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "showstats",
+                    "description": "Show stats.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "rawModeData": ""
+        }
+    ]
+}
