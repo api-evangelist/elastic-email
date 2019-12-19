@@ -1,0 +1,94 @@
+{
+    "name": "Elastic Email",
+    "description": "Elastic Email is an all-in-one email delivery platform. Send beautiful newsletters or transactional emails in a better way.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/586-elastic-email.jpg",
+    "tags": [
+        "api provider",
+        "cloud",
+        "emails",
+        "have api",
+        "messages",
+        "relative data",
+        "service api",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/elastic-email\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Elastic Email SMTP API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/586-elastic-email.jpg",
+            "humanURL": "http:\/\/elasticemail.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/elastic-email-smtp-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/elastic-email-smtp-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.elasticemail.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/elasticemail.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/elasticemail.com\/posts\/rss\/xml"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/elastic-email"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/elastic-email"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/elasticemail.com\/api-documentation"
+        },
+        {
+            "type": "Email",
+            "url": "support@elasticemail.com"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/elasticemail.com\/pricing"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/elasticemail.com\/privacy-policy"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/elasticemail.com\/account#\/create-account"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/elasticemail.com\/terms"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/elastic_email"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/elasticemail.com"
+        }
+    ]
+}
