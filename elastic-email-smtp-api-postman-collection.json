@@ -1,5 +1,5 @@
 {
-    "id": "1f613cf88936474f3d35fb279adcf990",
+    "id": "8f2bb20361d41620f8385525cc5329e8",
     "name": "Elastic Email SMTP API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "dbf99a35dc9e0ae1eca1353072df071f",
+            "id": "07ee217998016211774cabf81e51f5b1",
             "name": "Upload Attachment",
             "url": "httpapi.elasticemail.com\/attachments\/upload\/",
             "description": "The upload attachment command is used to upload an attachment for sending.  ",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "35340b74fd9bd7e8447b2b4289f34aef",
+            "id": "f381f7e80519fc63154908fedff18d48",
             "name": "Add Existing Subscriber To List",
             "url": "httpapi.elasticemail.com\/lists\/add-contact",
             "description": "Add Existing Subscriber To List",
@@ -96,11 +96,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "e67f3d07fc9761bc201742f44884cb14",
+            "id": "c68686637a936b7a0459c54195ac29e0",
             "name": "Create New Subscriber",
             "url": "httpapi.elasticemail.com\/lists\/create-contact",
             "description": "Create New Subscriber",
@@ -225,11 +225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "6d52b28b0d08ff70ce496270f682c0a5",
+            "id": "e5b6c0f2f5900c31d8505e9d597b00d0",
             "name": "Create New List",
             "url": "httpapi.elasticemail.com\/lists\/create-lists",
             "description": "Create New List",
@@ -270,11 +270,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "4f5d87b92bd0e323412ec3dfc26743ea",
+            "id": "2eda22ee668b790ef9f4efd02b3c632f",
             "name": "Delete Existing List",
             "url": "httpapi.elasticemail.com\/lists\/delete",
             "description": "Delete Existing List",
@@ -315,11 +315,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "f79a14fd9e8f0785b51f9d332b92b1da",
+            "id": "102e78abffabab05aff82bd7e34a3107",
             "name": "Delete Existing Subscriber",
             "url": "httpapi.elasticemail.com\/lists\/delete-contact",
             "description": "Delete Existing Subscriber",
@@ -360,11 +360,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "b395aa2ec2301f572e9820bc4533ec1f",
+            "id": "b63d15b4f507f7aaf7548c9cee7b9655",
             "name": "Remove Existing Subscriber From List",
             "url": "httpapi.elasticemail.com\/lists\/remove-contact",
             "description": "Remove Existing Subscriber From List",
@@ -405,11 +405,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "d220f21185f7412b9cd2b1f7ccb91e7f",
+            "id": "efb3c76723c5bbc3d5ecdb5870de3b70",
             "name": "Create Multiple Subscriber From CSV File",
             "url": "httpapi.elasticemail.com\/lists\/upload-contacts",
             "description": "Create Multiple Subscriber From CSV File",
@@ -534,11 +534,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "cd16f74222d0ed9a8fddf122fee7639a",
+            "id": "7fb67b74c8132523d2bd08cfc40f7a06",
             "name": "Account Details",
             "url": "httpapi.elasticemail.com\/mailer\/account-details",
             "description": "The Account Details command is used to determine how much credit you have left.  ",
@@ -572,11 +572,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "ea3763bc620ab60bcec040084f69c045",
+            "id": "73d73fdf052a1cf8c4612e8d7b129424",
             "name": "Deleting Channel",
             "url": "httpapi.elasticemail.com\/mailer\/channel\/delete",
             "description": "Deleting Channel",
@@ -624,11 +624,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "b74aedd378b63c72819ac2ce072cf5b7",
+            "id": "966def2e4ccc08985698da8d3f0b3087",
             "name": "Listing of Active Channels",
             "url": "httpapi.elasticemail.com\/mailer\/channel\/list",
             "description": "Listing of Active Channels",
@@ -669,11 +669,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "712d5b69f15254b820b9eb5d2227d4cd",
+            "id": "46572db21fb28d8259b70c505de213e4",
             "name": "Bounced",
             "url": "httpapi.elasticemail.com\/mailer\/list\/bounced",
             "description": "This api will return you the list of email addresses which are currently in your block list. ",
@@ -707,11 +707,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "3f69189488175206944996eb0958d1a3",
+            "id": "4e160bdfad972bddc87c356e8ced6933",
             "name": "Complaint",
             "url": "httpapi.elasticemail.com\/mailer\/list\/complaint",
             "description": "This api will return you the list of email addresses which are currently in your block list. ",
@@ -745,11 +745,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "81b35adc0624ebfb286cf173175596d2",
+            "id": "4aa4721937f33c3d8e665c1c57caa002",
             "name": "Unsubscribed",
             "url": "httpapi.elasticemail.com\/mailer\/lists\/unsubscribed",
             "description": "This api will return you the list of email addresses which are currently in your block list. ",
@@ -783,11 +783,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "0fd768cb8197db3e4706e0182575a793",
+            "id": "22cdaf1199e0975f2a82629917847349",
             "name": "Send Email",
             "url": "httpapi.elasticemail.com\/mailer\/send\/",
             "description": "api.elasticemail.com",
@@ -947,11 +947,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "3cde2824f77e646303954ef4bc87a449",
+            "id": "afa81384b42e3628fdd7a410235f585a",
             "name": "Log Activity",
             "url": "httpapi.elasticemail.com\/mailer\/status\/log",
             "description": "The detailed activity log api allows you to get detailed information from your activity log on the emails that you have sent. Information can be narrowed by email status, channel and datetime.",
@@ -1027,11 +1027,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         },
         {
-            "id": "fcef5a6a3ae8687f5a0deb9d517e1ffe",
+            "id": "42990f24c71871a605265f586bb6a4f0",
             "name": "Get Status",
             "url": "httpapi.elasticemail.com\/mailer\/status\/{message_id}",
             "description": "Get the status of an email message",
@@ -1114,7 +1114,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1f613cf88936474f3d35fb279adcf990",
+            "collectionId": "8f2bb20361d41620f8385525cc5329e8",
             "rawModeData": ""
         }
     ]
