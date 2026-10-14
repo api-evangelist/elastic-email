@@ -1,0 +1,12 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.elasticemail.com/en/articles/2300658-what-is-throttling.md
+sources:
+- https://help.elasticemail.com/en/articles/2300658-what-is-throttling.md
+name: Elastic Email rate limits
+limits:
+- name: Concurrent connections
+  limit_text: 20 concurrent connections for both SMTP and API
+  max: 20
+docs: https://help.elasticemail.com/en/articles/2300658-what-is-throttling.md

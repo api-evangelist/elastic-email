@@ -1,23 +1,137 @@
 aid: elastic-email
 name: Elastic Email
-description: 'Elastic Email is a company surfaced via the API Evangelist harvest backlog (source: tag-qc)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://cms.elasticemail.com/wp-content/uploads/2025/11/elastic-email-thumbnail-homepage.png
+description: Elastic Email provides a cloud‑based email delivery platform offering transactional email, marketing campaigns, automation, and a
+  robust API for developers. The service includes email templates, contact management, analytics, and integrations with popular tools, enabling
+  businesses to send and track emails programmatically at scale.
 url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:tag-qc
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-14 (modular-v1; was harvest)
 specificationVersion: '0.20'
 created: '2026-10-13'
 modified: '2026-10-13'
 tags:
 - Company
-apis: []
+- Email
+- Marketing
+- API
+- SaaS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: PrivacyPolicy
+  url: https://elasticemail.com/resources/usage-policies/privacy-policy
+- type: RateLimits
+  url: rate-limits/elastic-email-rate-limits.yml
+- type: Plans
+  url: plans/elastic-email-plans-pricing.yml
+- type: Spectral
+  url: rules/elastic-email-rules.yml
+- type: JSONLD
+  url: json-ld/elastic-email-context.jsonld
+- type: Vocabulary
+  url: vocabulary/elastic-email-vocabulary.yml
+- type: Webhooks
+  url: asyncapi/elastic-email-webhooks.yml
+- type: DataModel
+  url: data-model/elastic-email-data-model.yml
+- type: Conformance
+  url: conformance/elastic-email-conformance.yml
+- type: Overlay
+  url: overlays/elastic-email-openapi-overlay.yml
+- type: LLMsTxt
+  url: llms/elastic-email-llms.txt
+- type: ToolCrosswalk
+  url: mcp/elastic-email-tool-crosswalk.yml
+- type: MCPServer
+  url: mcp/elastic-email-mcp.yml
+- type: SecurityTxt
+  url: well-known/elastic-email-auth-security.txt
+- type: WellKnown
+  url: well-known/elastic-email-well-known.yml
+- type: Hosts
+  url: hosts/elastic-email-hosts.yml
+- type: SDKs
+  url: packages/elastic-email-packages.yml
+- type: Packages
+  url: packages/elastic-email-packages.yml
+- type: Webhooks
+  url: https://elasticemail.com/webhooks
+- type: StatusPage
+  url: https://status.elasticemail.com/
+- type: Security
+  url: https://elasticemail.com/resources/usage-policies/security
+- type: GitHubOrganization
+  url: https://github.com/elasticemail
+- type: DomainSecurity
+  url: security/elastic-email-domain-security.yml
 - type: Website
   url: https://elasticemail.com
+- type: DeveloperPortal
+  url: https://elasticemail.com/developers
+- type: Documentation
+  url: https://elasticemail.com/developers/api-documentation/rest-api
+- type: APIReference
+  url: https://elasticemail.com/developers/api-documentation/rest-api
+- type: GettingStarted
+  url: https://elasticemail.com/getting-started
+- type: Support
+  url: https://help.elasticemail.com/
+- type: Blog
+  url: https://elasticemail.com/blog
+- type: Pricing
+  url: https://elasticemail.com/email-marketing-pricing
+- type: SignUp
+  url: https://elasticemail.com/signup-forms
+- type: TermsOfService
+  url: https://elasticemail.com/resources/usage-policies/terms-of-use
+apis:
+- name: Elastic Email REST API
+  description: Elastic Email REST API for sending emails, managing contacts, campaigns, and more.
+  humanURL: https://elasticemail.com/developers/api-documentation/rest-api
+  baseURL: https://api.elasticemail.com/v4
+  aid: elastic-email:elastic-email-rest-api
+- aid: elastic-email:elastic-email-api
+  name: Elastic Email API
+  description: 'Elastic Email API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-14);
+
+    not the provider''s own document.'
+  humanURL: http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  baseURL: https://api.elasticemail.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/elastic-email-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-emails-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-id-secret-rotate-response-schema.json
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-14'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://elasticemail.com
+    status: 200
+x-enrichment:
+  date: '2026-10-14'
+  status: enriched
+  artifacts_added: 29
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/elastic-email/main/json-schema/elastic-email-post-emails-request-schema.json",
+  "title": "PostEmailsRequest",
+  "x-generated": "2026-10-14",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostEmailsRequest",
+  "type": "object",
+  "properties": {
+    "Options": {
+      "type": "object",
+      "description": "Object containing optional parameters for the email request."
+    },
+    "ChannelName": {
+      "type": "string",
+      "description": "Name of the channel to send the email through. If the channel does not exist it will be created."
+    }
+  }
+}

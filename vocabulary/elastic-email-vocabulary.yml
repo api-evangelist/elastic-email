@@ -1,0 +1,40 @@
+generated: '2026-10-14'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/elastic-email-openapi-generated.yml
+vocabulary:
+  name: Elastic Email Domain Vocabulary
+  description: 'Terms declared by Elastic Email''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-14'
+  terms:
+  - term: PostEmailsRequest
+    definition: 'Object declared by the contract with fields: Options, ChannelName.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostEmailsRequest
+  - term: PostHooksElasticRequest
+    definition: 'Object declared by the contract with fields: X-ElasticEmail-Timestamp, X-ElasticEmail-Signature, X-ElasticEmail-Webhook-Id, body.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostHooksElasticRequest
+  - term: PostHooksElasticResponse
+    definition: 'Object declared by the contract with fields: 200, 401.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostHooksElasticResponse
+  - term: PostV4WebhookRequest
+    definition: 'Object declared by the contract with fields: Name, URL, NotificationForSent, NotificationForError, EnableSigning, DeliveryMethod.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostV4WebhookRequest
+  - term: PostV4WebhookResponse
+    definition: 'Object declared by the contract with fields: SigningEnabled, DeliveryMethod, SigningSecret.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostV4WebhookResponse
+  - term: PostV4WebhookIdSecretRotateResponse
+    definition: 'Object declared by the contract with fields: SigningSecret.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostV4WebhookIdSecretRotateResponse

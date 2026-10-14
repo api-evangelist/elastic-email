@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/elastic-email/main/json-schema/elastic-email-post-hooks-elastic-response-schema.json",
+  "title": "PostHooksElasticResponse",
+  "x-generated": "2026-10-14",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostHooksElasticResponse",
+  "type": "object",
+  "properties": {
+    "200": {
+      "type": "string",
+      "description": "Successful verification"
+    },
+    "401": {
+      "type": "string",
+      "description": "Signature verification failed"
+    }
+  }
+}

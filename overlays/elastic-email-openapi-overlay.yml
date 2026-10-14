@@ -1,0 +1,6 @@
+generated: '2026-10-14'
+method: derived
+source: https://mcp.elasticemail.com/documentation/v1/mcp.json
+overlay:
+  version: 1.0.0
+  actions: []

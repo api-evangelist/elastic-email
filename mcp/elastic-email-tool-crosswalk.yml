@@ -1,0 +1,38 @@
+generated: '2026-10-14'
+method: derived
+source: https://mcp.elasticemail.com/documentation/v1/mcp.json
+deployment:
+  mode: remote
+  endpoint: https://mcp.elasticemail.com
+crosswalk:
+  - tool: create_campaign
+    category: campaign
+    rest:
+      - create_campaign
+    binding: operationId
+    confidence: high
+  - tool: list_campaigns
+    category: campaign
+    rest:
+      - list_campaigns
+    binding: operationId
+    confidence: high
+  - tool: get_campaign
+    category: campaign
+    rest:
+      - get_campaign
+    binding: operationId
+    confidence: high
+  - tool: pause_campaign
+    category: campaign
+    rest:
+      - pause_campaign
+    binding: operationId
+    confidence: high
+  - tool: update_campaign
+    category: campaign
+    rest:
+      - update_campaign
+    binding: operationId
+    confidence: high
+  # ... additional tools would be listed similarly

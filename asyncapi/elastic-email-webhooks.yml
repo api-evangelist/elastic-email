@@ -1,0 +1,25 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+sources:
+- https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+- https://help.elasticemail.com/en/articles/4804685-notification-settings.md
+description: Elastic Email webhooks deliver notifications about email status changes.
+events:
+- event: Sent
+  description: Sent – when you want to receive notifications for sent emails. "Sent" means that the recipient server accepted the message.
+- event: Opened
+  description: Opened – when you want to receive notifications for opened emails.
+- event: Clicked
+  description: Clicked – when you want to receive notifications for clicked emails.
+- event: Unsubscribed
+  description: Unsubscribed – when you want to receive notifications about users unsubscribing from your email.
+- event: Complaints
+  description: Complaints – when you want to receive notifications for all types of complaints.
+- event: Bounce / Error
+  description: Bounce / Error – when you want to receive notifications for bounced emails.
+delivery:
+  content_type: application/json (POST) or query string (GET) depending on DeliveryMethod setting
+note: Both GET (query string) and POST (JSON body) delivery methods are optional and can be chosen when creating the webhook. The default is GET.
+docs: https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md

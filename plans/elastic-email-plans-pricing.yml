@@ -1,0 +1,18 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.elasticemail.com/en/articles/3331811-elastic-email-pricing-plans.md
+sources:
+- https://help.elasticemail.com/en/articles/3331811-elastic-email-pricing-plans.md
+- https://help.elasticemail.com/en/articles/2553114-how-are-contacts-counted-on-email-marketing-plan.md
+- https://help.elasticemail.com/en/articles/6380329-how-to-manage-your-billing.md
+name: Elastic Email pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Inbox
+  price_text: $9/month per seat
+  price: 9
+  description: Team communication and support platform.
+docs: https://help.elasticemail.com/en/articles/3331811-elastic-email-pricing-plans.md
+note: 2 extracted row(s) were dropped because their quote was not on the page.

@@ -1,0 +1,166 @@
+# Elastic Email Help Center
+
+> Advice and answers from the Elastic Email Team
+
+## Contacts
+
+- [How to move from Mailchimp to Elastic Email - Migration Guide](http://help.elasticemail.com/en/articles/6984155-how-to-move-from-mailchimp-to-elastic-email-migration-guide.md): Learn how to export your most important account data - contacts and email templates - directly from Mailchimp to your Elastic Email account
+- [Nth selection tool](http://help.elasticemail.com/en/articles/5194415-nth-selection-tool.md): This tool lets you quickly and easily break up an existing list or segment.
+- [Device details](http://help.elasticemail.com/en/articles/3947194-device-details.md): Learn more about your recipients. Knowing what devices do they use to interact with you may help with improving your marketing strategy
+- [Segment rules](http://help.elasticemail.com/en/articles/5162182-segment-rules.md)
+- [Contact History](http://help.elasticemail.com/en/articles/5070527-contact-history.md): This tab allows you to track the changes made to your lists and segments
+- [Custom contact fields](http://help.elasticemail.com/en/articles/5016927-custom-contact-fields.md): Learn more about how to use custom contact fields to store and manage more contact information!
+- [How to export contacts](http://help.elasticemail.com/en/articles/5016544-how-to-export-contacts.md): Learn how to export your contact data from Elastic Email.
+- [How to upload your contacts](http://help.elasticemail.com/en/articles/4966686-how-to-upload-your-contacts.md): There are multiple ways of adding contacts to your account and managing them.
+- [How to manage contact profiles](http://help.elasticemail.com/en/articles/5013318-how-to-manage-contact-profiles.md): Keep your contact's information up to date. The more you know the more personalized your messages can be.
+- [Resubscribing your contact](http://help.elasticemail.com/en/articles/4891044-resubscribing-your-contact.md): If a contact has unsubscribed by mistake, you can help them re-subscribe to your list at any time.
+- [Contact lists and segments](http://help.elasticemail.com/en/articles/4984897-contact-lists-and-segments.md): Learn how to manage your contacts with the help of static lists and dynamic segments
+- [Contact Pruning](http://help.elasticemail.com/en/articles/4867718-contact-pruning.md): Learn more about the Contact Pruning feature that will improve your email delivery.
+- [How to exclude a domain from your recipient list](http://help.elasticemail.com/en/articles/3789892-how-to-exclude-a-domain-from-your-recipient-list.md): Learn how to use segment management to bypass a certain domain from receiving your newsletters
+- [How are contacts counted on Email Marketing plan](http://help.elasticemail.com/en/articles/2553114-how-are-contacts-counted-on-email-marketing-plan.md): Learn more about how many and which contacts you can store on Email Marketing plan on Elastic Email.
+- [Email Verification Service](http://help.elasticemail.com/en/articles/4026880-email-verification-service.md): Learn how to use the Email Verification Service to help with maintaining healthy contact lists
+- [Email Verification API service](http://help.elasticemail.com/en/articles/3098546-email-verification-api-service.md): Learn more about how to use the email verification service to improve the quality of your contacts.
+- [What are role addresses](http://help.elasticemail.com/en/articles/2419220-what-are-role-addresses.md): Have you ever wondered what role addresses are and if sending to them can impact your email's delivery?
+- [How to prevent bots from spamming your sign up forms](http://help.elasticemail.com/en/articles/2419115-how-to-prevent-bots-from-spamming-your-sign-up-forms.md): Here are some ways you can prevent bots from spamming your forms or signing up with fake emails.
+- [What are spam traps and how to avoid them](http://help.elasticemail.com/en/articles/2419104-what-are-spam-traps-and-how-to-avoid-them.md): Find out more about what spam traps are, how to make sure you don’t get one on your list and what to do if you’ve fallen into the trap.
+- [How to increase your subscriber engagement](http://help.elasticemail.com/en/articles/2300591-how-to-increase-your-subscriber-engagement.md): Develop an efficient sending strategy to boost your deliverability!
+- [How to manage your contacts](http://help.elasticemail.com/en/articles/2300590-how-to-manage-your-contacts.md): Knowing how to properly manage your contacts can make or break your email campaigns.
+- [What are the contact statuses](http://help.elasticemail.com/en/articles/2300589-what-are-the-contact-statuses.md): Contact statuses can change depending on your recipients' activity. Learn about all of them in the presented guideline.
+- [How to create a Subscription Form](http://help.elasticemail.com/en/articles/9675586-how-to-create-a-subscription-form.md): Create your own double opt-in web form with Elastic Email.
+- [How to remove contacts from a list or delete them from your account](http://help.elasticemail.com/en/articles/16900649-how-to-remove-contacts-from-a-list-or-delete-them-from-your-account.md): Removing a contact from a list and deleting a contact from your account are two different actions with different results. This article explains the difference and shows you how to do each one.
+
+## Templates
+
+- [How to export templates and share them with Subaccounts](http://help.elasticemail.com/en/articles/3849794-how-to-export-templates-and-share-them-with-subaccounts.md): Learn how to export templates for use outside Elastic Email or share them directly with your subaccounts.
+- [How to create a landing page in New Landing Page Editor](http://help.elasticemail.com/en/articles/3473754-how-to-create-a-landing-page-in-new-landing-page-editor.md): Learn how to create and manage a landing page in our easy to use Landing Page Editor
+- [How to create AMP emails](http://help.elasticemail.com/en/articles/3074191-how-to-create-amp-emails.md): Learn more about how to set up your account and templates to use AMP elements and send interactive, dynamic emails.
+- [How to design emails for Outlook recipients](http://help.elasticemail.com/en/articles/2419143-how-to-design-emails-for-outlook-recipients.md): This article provides tips to help you get better results when sending emails to Outlook users.
+- [How to run an A/B split test](http://help.elasticemail.com/en/articles/2370354-how-to-run-an-a-b-split-test.md): This kind of testing helps you see how well your email is performing and how your subscribers are engaging with it.
+- [How to use merge fields](http://help.elasticemail.com/en/articles/2300609-how-to-use-merge-fields.md): Unlock the power of merge fields for crafting personalized email messages.
+- [How to manage templates](http://help.elasticemail.com/en/articles/2300606-how-to-manage-templates.md): A good template can be used again and again. Become familiar with your templates screen and all that it has to offer.
+- [How to use Nifty Images](http://help.elasticemail.com/en/articles/2300605-how-to-use-nifty-images.md): Use Nifty Images with Elastic Email to send personalized Images to your contacts.
+- [How to create an activation template](http://help.elasticemail.com/en/articles/9576891-how-to-create-an-activation-template.md): Learn how to customize an email that is sent from your webform to confirm your contacts
+- [AI Template Designer](http://help.elasticemail.com/en/articles/12029322-ai-template-designer.md): The AI Template Designer is the AI assistant built into Elastic Email. It lets you create and edit email templates by writing prompts in plain language instead of editing every element by hand.
+
+## API
+
+- [Channels for SMTP and API](http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md): Learn how to pass and find channel information in Elastic Email
+- [How to send emails via API](http://help.elasticemail.com/en/articles/2376694-how-to-send-emails-via-api.md): The Elastic Email API lets you send emails and manage your account directly from your application. This article covers what you need to get started and where to find the full documentation and code...
+- [How to manage custom headers](http://help.elasticemail.com/en/articles/2376848-how-to-manage-custom-headers.md): Learn how to add Custom Headers in your emails.
+- [Elastic Email MCP](http://help.elasticemail.com/en/articles/12595879-elastic-email-mcp.md): The Elastic Email MCP \(Model Context Protocol\) Server enables AI agents like GitHub Copilot, ChatGPT, Claude, and other compatible assistants to seamlessly integrate with your Elastic Email account.
+- [How to connect the Elastic Email MCP server to Claude](http://help.elasticemail.com/en/articles/17451500-how-to-connect-the-elastic-email-mcp-server-to-claude.md): The Elastic Email MCP \(Model Context Protocol\) Server lets AI agents work directly with your Elastic Email account: creating lists, segments and campaigns, sending transactional and bulk emails, fe...
+- [How to integrate AcyMailing with Elastic Email](http://help.elasticemail.com/en/articles/2370385-how-to-integrate-acymailing-with-elastic-email.md): Discover the easiest way to send your email from your web application with Elastic Email.
+- [How to integrate MailPoet with Elastic Email](http://help.elasticemail.com/en/articles/2370389-how-to-integrate-mailpoet-with-elastic-email.md): In this tutorial we will show you how to integrate MailPoet with Elastic Email.
+- [How to integrate EasySendy Pro with Elastic Email](http://help.elasticemail.com/en/articles/2370388-how-to-integrate-easysendy-pro-with-elastic-email.md): In this tutorial, we will show you how to configure your EasySendy Pro to send emails to the Elastic Email server.
+- [How to configure Sendy with Elastic Email](http://help.elasticemail.com/en/articles/2370372-how-to-configure-sendy-with-elastic-email.md): Find out more about configuring Sendy with Elastic Email.
+- [How to configure Mautic with Elastic Email](http://help.elasticemail.com/en/articles/2370422-how-to-configure-mautic-with-elastic-email.md): Learn how to configure Mautic software with Elastic Email.
+- [How to integrate using Exim](http://help.elasticemail.com/en/articles/10294977-how-to-integrate-using-exim.md): This is a step-by-step guide on Exim integration
+- [How to integrate Elastic Email with Canva](http://help.elasticemail.com/en/articles/13390987-how-to-integrate-elastic-email-with-canva.md): Our integration with Canva allows you to seamlessly transfer your designs between both platforms. This guide will walk you through connecting your accounts, exporting designs from Canva to Elastic ...
+- [How to integrate Elastic Email with Zapier?](http://help.elasticemail.com/en/articles/13683695-how-to-integrate-elastic-email-with-zapier.md): Connecting Elastic Email with Zapier makes it easy to automatically move information between your favorite apps and your email system. This saves you time and ensures your contacts are always up-to...
+- [How to integrate Elastic Email with Supabase via SMTP](http://help.elasticemail.com/en/articles/13927653-how-to-integrate-elastic-email-with-supabase-via-smtp.md): This article provides instructions for configuring Supabase to use Elastic Email as a custom SMTP provider.
+- [How to integrate Wix with Elastic Email](http://help.elasticemail.com/en/articles/13615551-how-to-integrate-wix-with-elastic-email.md): Wix is a cloud-based website designer. This guide will show you how to integrate it with your Elasstic Email account
+- [How to integrate Pipedrive with Elastic Email](http://help.elasticemail.com/en/articles/14036353-how-to-integrate-pipedrive-with-elastic-email.md): This article guides you through setting up and managing the Pipedrive integration with Elastic Email. This integration allows for seamless, automatic synchronization of contact data from Pipedrive ...
+- [How to integrate BigCommerce with Elastic Email?](http://help.elasticemail.com/en/articles/15042172-how-to-integrate-bigcommerce-with-elastic-email.md): Connecting Elastic Email with BigCommerce allows for automatic synchronization of customer and subscriber data directly from your online store to the email marketing system.
+- [How to integrate Elastic Email with IFTTT?](http://help.elasticemail.com/en/articles/13785473-how-to-integrate-elastic-email-with-ifttt.md): IFTTT \(If This Then That\) connects Elastic Email with numerous applications, enabling workflow automation through 'Applets' that handle repetitive tasks. This guide helps you integrate to save time...
+
+## Campaigns
+
+- [Geography](http://help.elasticemail.com/en/articles/5469995-geography.md): The Geography screen will present you with the geographical data of where your emails were opened.
+- [How to send your first campaign](http://help.elasticemail.com/en/articles/5472509-how-to-send-your-first-campaign.md): In Marketing plans, you can easily design and send your campaigns!
+- [How to manage different UTM parameters](http://help.elasticemail.com/en/articles/2903977-how-to-manage-different-utm-parameters.md): Learn more about how to manage multiple UTM codes in your campaigns.
+- [How to confirm your contacts](http://help.elasticemail.com/en/articles/2418957-how-to-confirm-your-contacts.md): Find out how you can get your non-active contacts re-engaged.
+- [How to send to an old contact list](http://help.elasticemail.com/en/articles/2418945-how-to-send-to-an-old-contact-list.md): Check out our few useful tips on how to send emails to an old list.
+- [What can I find on the campaign screen](http://help.elasticemail.com/en/articles/2388004-what-can-i-find-on-the-campaign-screen.md): Check out our short review of what you'll find on your campaign screen.
+- [How to send to “non-openers”](http://help.elasticemail.com/en/articles/2370334-how-to-send-to-non-openers.md): You can easily send a campaign to those, who didn't open or click your email! Find out how to do it properly with our simple video tutorial.
+- [How to manage Automation Campaigns](http://help.elasticemail.com/en/articles/2860257-how-to-manage-automation-campaigns.md): Learn more about how to use advanced logic to create complex automation campaigns in a simple way!
+- [Paid Newsletters](http://help.elasticemail.com/en/articles/11695397-paid-newsletters.md): Paid Newsletters let you sell subscription access to your email content and collect recurring payments from your subscribers through Stripe. This article explains how the feature works and how to s...
+- [How to exclude contacts from your Campaign](http://help.elasticemail.com/en/articles/12170898-how-to-exclude-contacts-from-your-campaign.md)
+- [Delivery by timezone](http://help.elasticemail.com/en/articles/13348699-delivery-by-timezone.md): This feature allows you to schedule email campaigns so that each recipient receives them at the same local time, regardless of their geographic location.
+
+## Activity
+
+- [Your open and click rates](http://help.elasticemail.com/en/articles/5405757-your-open-and-click-rates.md)
+- [How Logs Work in Elastic Email: Searching and Exporting Email Logs from Your Account](http://help.elasticemail.com/en/articles/3399226-how-logs-work-in-elastic-email-searching-and-exporting-email-logs-from-your-account.md): Learn how to search for and download email log data from your Elastic Email account
+- [How to find full message headers](http://help.elasticemail.com/en/articles/2787841-how-to-find-full-message-headers.md): Find out how you can easily obtain full message headers from most popular mail services.
+- [What are the feedback loops](http://help.elasticemail.com/en/articles/2300676-what-are-the-feedback-loops.md): Feedback loops allow us to know who is complaining about your email.
+- [What are abuse reports](http://help.elasticemail.com/en/articles/2300675-what-are-abuse-reports.md): Abuse Reports: What are they and how to avoid them.
+- [What is throttling](http://help.elasticemail.com/en/articles/2300658-what-is-throttling.md): Throttling is the intentional slowing down of the email delivery rate. This article explains where throttling can happen, what causes it, and what you can do to get your delivery back to normal.
+- [What are the bounce error categories and filters](http://help.elasticemail.com/en/articles/2300650-what-are-the-bounce-error-categories-and-filters.md): Learn about all statuses that can be generated by your bounced emails.
+- [How to find a MessageID](http://help.elasticemail.com/en/articles/2300647-how-to-find-a-messageid.md): Elastic Email uses MessageID as a way to uniquely identify emails.
+- [Email delivery statuses](http://help.elasticemail.com/en/articles/2300646-email-delivery-statuses.md): In Elastic Email each unique email has a specific status assigned, depending on the stage of sending.
+
+## Account Settings
+
+- [Importance of SPF and DKIM on your domain](http://help.elasticemail.com/en/articles/6379963-importance-of-spf-and-dkim-on-your-domain.md)
+- [Single sign-on](http://help.elasticemail.com/en/articles/4899866-single-sign-on.md)
+- [Sending Settings](http://help.elasticemail.com/en/articles/4805391-sending-settings.md): A guide to your account sending settings.
+- [Tracking opens and clicks](http://help.elasticemail.com/en/articles/4867123-tracking-opens-and-clicks.md): Open and click tracking is the most basic way to measure your recipients' engagement.
+- [Custom Bounce Domain](http://help.elasticemail.com/en/articles/4859233-custom-bounce-domain.md): Learn how to set a custom bounce domain on your Elastic Email account to help you manage bounce notifications
+- [Unsubscribe Settings](http://help.elasticemail.com/en/articles/4808492-unsubscribe-settings.md)
+- [Dealing with a suspected compromised account](http://help.elasticemail.com/en/articles/3540017-dealing-with-a-suspected-compromised-account.md): How to spot if my account has potentially been compromised?
+- [System settings](http://help.elasticemail.com/en/articles/4811424-system-settings.md): System settings is where you change the display language of your dashboard, set up low credit reminders, forward system notifications to other email addresses, and turn tool-tips on or off.
+- [How to get a receipt](http://help.elasticemail.com/en/articles/3781322-how-to-get-a-receipt.md): Learn where to find a receipt for Elastic Email services
+- [Notification Settings](http://help.elasticemail.com/en/articles/4804685-notification-settings.md): Webhooks and Inbound Notifications
+- [Elastic Email Pricing Plans](http://help.elasticemail.com/en/articles/3331811-elastic-email-pricing-plans.md): Check which of our pricing options suits you best – a breakdown of similarities and differences between Email Marketing, Email API and Inbox plans.
+- [How to change your account's credentials](http://help.elasticemail.com/en/articles/2960886-how-to-change-your-account-s-credentials.md): Modification of account's profile information
+- [How to secure account with two-factor authentication](http://help.elasticemail.com/en/articles/2783376-how-to-secure-account-with-two-factor-authentication.md): Two-form authentication adds supplementary security measure to your account.
+- [API Settings](http://help.elasticemail.com/en/articles/4799160-api-settings.md): Create and manage your API Keys and access levels
+- [SMTP Settings](http://help.elasticemail.com/en/articles/4803409-smtp-settings.md): Create and manage your SMTP Credentials
+- [What are sending limits for new accounts](http://help.elasticemail.com/en/articles/2446055-what-are-sending-limits-for-new-accounts.md): When you first open an account with Elastic Email and opt for a Free Plan, there are certain initial restrictions on sending volume and recipient types. This allows you to test the platform without...
+- [How to configure Ssmtp with Elastic Email](http://help.elasticemail.com/en/articles/2388072-how-to-configure-ssmtp-with-elastic-email.md): Find out more about Elastic Email on SMTP relay for ssmtp.
+- [How to configure Sendmail with Elastic Email](http://help.elasticemail.com/en/articles/2388066-how-to-configure-sendmail-with-elastic-email.md): Find out more about Sendmail settings for Elastic Email.
+- [How to configure PostFix with Elastic Email](http://help.elasticemail.com/en/articles/2388043-how-to-configure-postfix-with-elastic-email.md): To use Elastic Email as relay host you must update the PostFix configuration.
+- [How to configure Thunderbird with Elastic Email](http://help.elasticemail.com/en/articles/2388024-how-to-configure-thunderbird-with-elastic-email.md): Learn more about how to send mail using Thunderbird.
+- [Reselling overview](http://help.elasticemail.com/en/articles/2361460-reselling-overview.md): Learn more about how to resell the Elastic Email service to your own customers.
+- [How to use Subaccounts](http://help.elasticemail.com/en/articles/2361464-how-to-use-subaccounts.md): Elastic Email allows to create and use unlimited number of subaccounts. It makes it is easy to provide each customer with his own account.
+- [How to make money with Elastic Email’s referral program](http://help.elasticemail.com/en/articles/2361432-how-to-make-money-with-elastic-email-s-referral-program.md): Refer customers to Elastic Email and earn 20% of anything they spend for up to half a year.
+- [What is your Elastic Email account's status](http://help.elasticemail.com/en/articles/2361427-what-is-your-elastic-email-account-s-status.md): Keep your Elastic Email account in an Active Status to prevent interruptions in service.
+- [Custom Branding Settings](http://help.elasticemail.com/en/articles/2361419-custom-branding-settings.md): The Custom Branding settings allow you to "whitelabel" the system access points for your customers.
+- [How to get started](http://help.elasticemail.com/en/articles/2361393-how-to-get-started.md): Learn more about how to get your account setup and send your first email campaign through Elastic Email.
+- [How to manage many users on the same account](http://help.elasticemail.com/en/articles/2361368-how-to-manage-many-users-on-the-same-account.md): You may run into situations where more than one person requires access to your Elastic Email account.
+- [Debian/Ubuntu Tutorial for Elastic Email](http://help.elasticemail.com/en/articles/2303948-debian-ubuntu-tutorial-for-elastic-email.md): Learn about how to configure Ubuntu nullmailer to relay all local emails through the Elastic Email cloud.
+- [How to Use Checkouts for Selling Digital Products](http://help.elasticemail.com/en/articles/10515806-how-to-use-checkouts-for-selling-digital-products.md): A step-by-step guide to setting up checkouts for your email marketing & sales.
+- [How to manage your billing](http://help.elasticemail.com/en/articles/6380329-how-to-manage-your-billing.md): The Billing screen is a vital part of your account. As soon as you decide to purchase a paid plan, familiarity with it will surely help.
+- [How to use the Suppressions list in Elastic Email](http://help.elasticemail.com/en/articles/16180114-how-to-use-the-suppressions-list-in-elastic-email.md): The Suppressions list shows which contacts are blocked from receiving your emails and why, so you can review their status, add contacts manually, and remove them individually when you want to try s...
+- [How to manage template scripting](http://help.elasticemail.com/en/articles/2300607-how-to-manage-template-scripting.md): Check out how you can implement template scripting in your emails.
+- [Webhook request signing and JSON delivery](http://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md): When you create a webhook, you can choose to have Elastic Email sign every request it sends you, and to receive event data as a POST request with a JSON body. This article explains what both option...
+- [Private IP Settings](http://help.elasticemail.com/en/articles/4804547-private-ip-settings.md): Learn more about Private IPs and gain exclusive control over your sending IP address, reputation and delivery.
+- [How to warm up a private IP](http://help.elasticemail.com/en/articles/2788598-how-to-warm-up-a-private-ip.md): Learn more about how to get your dedicated IP ready for sending!
+- [How to create a private IP pool](http://help.elasticemail.com/en/articles/2288348-how-to-create-a-private-ip-pool.md): Learn more about how to create a Private IP Pool in Elastic Email and what is the biggest benefit of Private IP Pool.
+- [Shared vs. Private IPs: understanding the differences and benefits of each model](http://help.elasticemail.com/en/articles/9444015-shared-vs-private-ips-understanding-the-differences-and-benefits-of-each-model.md): Choose a sending model that suits your needs.
+- [How to verify your sender email](http://help.elasticemail.com/en/articles/5140589-how-to-verify-your-sender-email.md): It is possible to verify your email address rather than the domain itself.
+- [Valid Sender Domain Only](http://help.elasticemail.com/en/articles/6044341-valid-sender-domain-only.md): A feature that helps you ensure you send from personally verified addresses only
+- [How to verify your domain](http://help.elasticemail.com/en/articles/4934400-how-to-verify-your-domain.md): Completely whitelabel your emails using your own domain to improve email deliverability.
+- [Default sender domain](http://help.elasticemail.com/en/articles/4872059-default-sender-domain.md): Setting a domain as the default sender is important for your main account as well as potentially for all your sub accounts
+- [How to verify your domain on GoDaddy](http://help.elasticemail.com/en/articles/3439839-how-to-verify-your-domain-on-godaddy.md): The following information will guide you on how to verify Elastic Email SPF, DKIM and TRACKING records for your domain hosted on GoDaddy.
+- [How to find out if your domain is blacklisted](http://help.elasticemail.com/en/articles/2418970-how-to-find-out-if-your-domain-is-blacklisted.md): Best sender practices will help you avoid ending up with a blacklisted sender domain.
+- [How to verify your domain on IONOS](http://help.elasticemail.com/en/articles/2303895-how-to-verify-your-domain-on-ionos.md): The following information will guide you on how to validate SPF, DKIM and TRACKING records for your domain hosted at IONOS by 1&1.
+- [The DMARC Generator Tool](http://help.elasticemail.com/en/articles/2303947-the-dmarc-generator-tool.md): In this post, we cover a few details about DMARC and invite you to try out our new DMARC GENERATOR tool.
+- [What are common SPF errors](http://help.elasticemail.com/en/articles/2361335-what-are-common-spf-errors.md): SPF validation is one of the most important aspects of good delivery.
+- [What is a custom tracking domain and why is it important?](http://help.elasticemail.com/en/articles/2303946-what-is-a-custom-tracking-domain-and-why-is-it-important.md): Find out more about Custom Tracking Domain and why should you use your own domain to track the links in your emails.
+- [Whitelabeled Domain Verification](http://help.elasticemail.com/en/articles/2303900-whitelabeled-domain-verification.md): Your customers can verify their domain using your domain.
+- [DMARCRadar](http://help.elasticemail.com/en/articles/16180077-dmarcradar.md): DMARCRadar gives an instant, plain-English read on any domain's DMARC, SPF, and DKIM setup - no signup needed. Sign up free to monitor it ongoing: who's sending as your domain, and a health score o...
+- [Self-Service SSL installation](http://help.elasticemail.com/en/articles/16001603-self-service-ssl-installation.md): Learn what SSL certificates are, why your tracking domains need them, and how to install them directly in your Elastic Email dashboard.
+
+## Delivery Guides
+
+- [Defining email bounce and its types](http://help.elasticemail.com/en/articles/9444011-defining-email-bounce-and-its-types.md)
+- [Warming up your domain and private IP](http://help.elasticemail.com/en/articles/9443788-warming-up-your-domain-and-private-ip.md)
+- [Delivery Guide](http://help.elasticemail.com/en/articles/2418977-delivery-guide.md): How to ensure the best delivery.
+- [Blacklist - what is it and what to do if you’re on it.](http://help.elasticemail.com/en/articles/3540001-blacklist-what-is-it-and-what-to-do-if-you-re-on-it.md)
+- [How to avoid the spam folder](http://help.elasticemail.com/en/articles/2398605-how-to-avoid-the-spam-folder.md): We’ve got lots of tips on this list to help you improve your delivery and reach the inbox.
+- [What is the difference between marketing and transactional email](http://help.elasticemail.com/en/articles/2419281-what-is-the-difference-between-marketing-and-transactional-email.md): Depending on the type of mail you send, your approach to designing and deploying your email campaigns may change.
+- [How to reduce email bounce rate](http://help.elasticemail.com/en/articles/2419232-how-to-reduce-email-bounce-rate.md): Best practices for maximizing deliverability.
+- [What is the complaints threshold](http://help.elasticemail.com/en/articles/2300649-what-is-the-complaints-threshold.md): Elastic Email enforces the acceptable industry standard for complaints.
+
+## Inbox
+
+- [Seat management](http://help.elasticemail.com/en/articles/12681811-seat-management.md): Learn how to manage user seats in the Inbox product
+- [Setting up a live chat](http://help.elasticemail.com/en/articles/12681402-setting-up-a-live-chat.md)
+- [How to add a shared inbox](http://help.elasticemail.com/en/articles/12680020-how-to-add-a-shared-inbox.md): This article will help you to add your first shared inbox
+- [What's Inbox?](http://help.elasticemail.com/en/articles/13002462-what-s-inbox.md): Learn its core features and how to centralize your team's conversations.
+- [Help Desk](http://help.elasticemail.com/en/articles/13034608-help-desk.md): The Help Desk module is the central hub for managing all external customer communications. It is designed to organize incoming messages and facilitate collaborative team responses.
+- [Team Chat](http://help.elasticemail.com/en/articles/13034755-team-chat.md): The Team Communication Chat module is an internal feature of Inbox dedicated to real-time communication and coordination among team members. It is separate from customer-facing communication and se...
+- [What are Teams?](http://help.elasticemail.com/en/articles/13925901-what-are-teams.md): Teams help you organize your Help Desk conversations by functional groups, such as "Support", "Sales" or "Billing". Instead of assigning a message to just one person, you can assign it to a whole T...
+- [Video calls for Team Chat](http://help.elasticemail.com/en/articles/16180003-video-calls-for-team-chat.md): Team Chat now supports real-time video calls, so you can talk face-to-face directly from a conversation without leaving Inbox or opening an external app. This feature is only available on the Inbox...
+- [How to use your own domain for email addresses in Inbox](http://help.elasticemail.com/en/articles/17229372-how-to-use-your-own-domain-for-email-addresses-in-inbox.md): Connect your own domain to Inbox and create email addresses that deliver straight to Help Desk, with no mailbox at another email provider.

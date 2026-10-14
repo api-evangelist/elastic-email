@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/elastic-email/main/json-schema/elastic-email-post-v4-webhook-response-schema.json",
+  "title": "PostV4WebhookResponse",
+  "x-generated": "2026-10-14",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/elastic-email-openapi-generated.yml#/components/schemas/PostV4WebhookResponse",
+  "type": "object",
+  "properties": {
+    "SigningEnabled": {
+      "type": "boolean",
+      "description": "Whether signing is enabled"
+    },
+    "DeliveryMethod": {
+      "type": "string",
+      "description": "Delivery method set for the webhook"
+    },
+    "SigningSecret": {
+      "type": "string",
+      "description": "Secret starting with whsec_, only returned on creation"
+    }
+  }
+}
