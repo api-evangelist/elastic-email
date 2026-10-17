@@ -1,0 +1,57 @@
+openapi: 3.2.0
+info:
+  title: Elastic Email Emails API
+  version: '2026-10-14'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-14: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Elastic Email has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 5
+    pages-with-code: 1
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-14'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - http://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+  - https://elasticemail.com/developers/api-libraries/bash
+  - https://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+servers:
+- url: https://api.elasticemail.com
+tags:
+- name: Emails
+paths:
+  /emails:
+    post:
+      operationId: post_emails
+      tags:
+      - Emails
+      summary: Channels for API
+      description: Send an email via the Elastic Email API, optionally specifying a channel name within the Options object.
+      x-source: http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostEmailsRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PostEmailsRequest:
+      type: object
+      properties:
+        Options:
+          type: object
+          description: Object containing optional parameters for the email request.
+        ChannelName:
+          type: string
+          description: Name of the channel to send the email through. If the channel does not exist it will be created.

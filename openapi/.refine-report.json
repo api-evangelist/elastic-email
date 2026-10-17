@@ -1,0 +1,23 @@
+{
+  "provider": "elastic-email",
+  "sources": [
+    "_ae-authored/elastic-email-openapi-generated.yml"
+  ],
+  "outputs": [
+    "elastic-email-elastic-email-api-api-openapi.yml",
+    "elastic-email-emails-api-openapi.yml",
+    "elastic-email-hooks-api-openapi.yml",
+    "elastic-email-webhook-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "elastic-email-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "elastic-email-openapi-generated.yml: tagged paths POST / -> Elastic Email API",
+    "elastic-email-openapi-generated.yml: declared missing tag: Elastic Email API",
+    "apis.yml register: written (+4 apis, 5 total)"
+  ],
+  "skipped": []
+}

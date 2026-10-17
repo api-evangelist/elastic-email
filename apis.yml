@@ -96,17 +96,82 @@ apis:
   humanURL: https://elasticemail.com/developers/api-documentation/rest-api
   baseURL: https://api.elasticemail.com/v4
   aid: elastic-email:elastic-email-rest-api
-- aid: elastic-email:elastic-email-api
-  name: Elastic Email API
-  description: 'Elastic Email API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-14);
-
-    not the provider''s own document.'
-  humanURL: http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
-  baseURL: https://api.elasticemail.com
+- aid: elastic-email:elastic-email-elastic-email-api-api
+  name: Elastic Email Elastic Email API
+  description: The Elastic Email API API from Elastic Email — 1 operation(s) for elastic email api.
+  humanURL: https://elasticemail.com/developers/api-documentation/rest-api
+  baseURL: https://api.elasticemail.com/v4
+  tags:
+  - Elastic Email API
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/elastic-email-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/elastic-email-elastic-email-api-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-emails-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-id-secret-rotate-response-schema.json
+- aid: elastic-email:elastic-email-emails-api
+  name: Elastic Email Emails API
+  description: The Emails API from Elastic Email — 1 operation(s) for emails.
+  humanURL: https://elasticemail.com/developers/api-documentation/rest-api
+  baseURL: https://api.elasticemail.com/v4
+  tags:
+  - Emails
+  properties:
+  - type: OpenAPI
+    url: openapi/elastic-email-emails-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-emails-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-id-secret-rotate-response-schema.json
+- aid: elastic-email:elastic-email-hooks-api
+  name: Elastic Email Hooks API
+  description: The Hooks API from Elastic Email — 1 operation(s) for hooks.
+  humanURL: https://elasticemail.com/developers/api-documentation/rest-api
+  baseURL: https://api.elasticemail.com/v4
+  tags:
+  - Hooks
+  properties:
+  - type: OpenAPI
+    url: openapi/elastic-email-hooks-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-emails-request-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-hooks-elastic-response-schema.json
+  - type: JSONSchema
+    url: json-schema/elastic-email-post-v4-webhook-id-secret-rotate-response-schema.json
+- aid: elastic-email:elastic-email-webhook-api
+  name: Elastic Email Webhook API
+  description: The Webhook API from Elastic Email — 3 operation(s) for webhook.
+  humanURL: https://elasticemail.com/developers/api-documentation/rest-api
+  baseURL: https://api.elasticemail.com/v4
+  tags:
+  - Webhook
+  properties:
+  - type: OpenAPI
+    url: openapi/elastic-email-webhook-api-openapi.yml
   - type: JSONSchema
     url: json-schema/elastic-email-post-v4-webhook-request-schema.json
   - type: JSONSchema

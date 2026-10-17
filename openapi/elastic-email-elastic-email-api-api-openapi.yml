@@ -1,0 +1,41 @@
+openapi: 3.2.0
+info:
+  title: Elastic Email API
+  version: '2026-10-14'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-14: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Elastic Email has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 5
+    pages-with-code: 1
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-14'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - http://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+  - https://elasticemail.com/developers/api-libraries/bash
+  - https://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+servers:
+- url: https://api.elasticemail.com
+tags:
+- name: Elastic Email API
+paths:
+  /:
+    post:
+      operationId: post
+      tags:
+      - Elastic Email API
+      summary: POST /
+      x-source: https://elasticemail.com/developers/api-libraries/bash
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -F file=$file -H \"$apiKeyHeader\" -X POST \"$apiMethodUrl?encodingName=$encodingName&listName=$listNameEncoded\" \n Export Contacts \n If you want to export the selected contact to a downloadable file, you will need Access Level: Export . \n Put the following code into your file. \n Load library using the following line: \n Copied! #!/bin/bash \n Variable for host value: \n Copied! host=https://api.ela"

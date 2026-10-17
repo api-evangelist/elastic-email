@@ -1,0 +1,80 @@
+openapi: 3.2.0
+info:
+  title: Elastic Email Hooks API
+  version: '2026-10-14'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-14: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Elastic Email has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 5
+    pages-with-code: 1
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-14'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - http://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - http://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+  - https://elasticemail.com/developers/api-libraries/bash
+  - https://help.elasticemail.com/en/articles/3119570-channels-for-smtp-and-api.md
+  - https://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+servers:
+- url: https://api.elasticemail.com
+tags:
+- name: Hooks
+paths:
+  /hooks/elastic:
+    post:
+      operationId: post_hooks_elastic
+      tags:
+      - Hooks
+      summary: Webhook request signing and JSON delivery
+      x-source: http://help.elasticemail.com/en/articles/17578018-webhook-request-signing-and-json-delivery.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostHooksElasticRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostHooksElasticResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PostHooksElasticResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+          description: Successful verification
+        '401':
+          type: string
+          description: Signature verification failed
+    PostHooksElasticRequest:
+      type: object
+      properties:
+        X-ElasticEmail-Timestamp:
+          type: string
+          description: Unix time when request was sent
+        X-ElasticEmail-Signature:
+          type: string
+          description: Signature in form v1=<hex>
+        X-ElasticEmail-Webhook-Id:
+          type: string
+          description: ID of the webhook
+        body:
+          type: string
+          description: Event data as flat JSON object
+      required:
+      - X-ElasticEmail-Timestamp
+      - X-ElasticEmail-Signature
+      - X-ElasticEmail-Webhook-Id
+      - body
